@@ -101,7 +101,7 @@ document.addEventListener('keydown', function(event) {
     } else if (event.key === 'ArrowLeft') {
         switch (currentSlide) {
             case 'slide2':
-                window.location.href = '../slide1.html';
+                window.location.href = '../index.html';
                 break;
             case 'slide3':
                 window.location.href = 'slide2.html';
